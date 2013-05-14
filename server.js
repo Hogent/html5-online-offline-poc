@@ -8,7 +8,7 @@ var app = express();
  
 app.configure(function () {
     app.set('port', process.env.VCAP_APP_PORT || 3000);
-    app.use(express.logger('dev'));  /* 'default', 'short', 'tiny', 'dev' */
+    app.use(express.logger('dev'));
     app.use(express.bodyParser()),
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(express.favicon(__dirname + '/public/img/favicon.png'));

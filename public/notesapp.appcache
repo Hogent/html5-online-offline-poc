@@ -1,0 +1,43 @@
+CACHE MANIFEST
+# Update revision number to trigger a cache refresh
+# vs022
+
+CACHE:
+# HTML
+index.html
+
+# CSS
+css/bootstrap.min.css
+css/bootstrap-responsive.min.css
+css/styles.css
+
+# Fonts
+fonts/Andika-R.eot
+fonts/Andika-R.svg
+fonts/Andika-R.ttf
+fonts/Andika-R.woff
+fonts/Arvo-Regular.eot
+fonts/Arvo-Regular.svg
+fonts/Arvo-Regular.ttf
+fonts/Arvo-Regular.woff
+
+# IMG
+img/glyphicons-halflings-white.png
+img/glyphicons-halflings.png
+img/notes.png
+img/favicon.png
+
+# JS
+lib/backbone-min.js
+lib/backbone.localstorage-min.js
+lib/backbone.localcache.js
+lib/bootstrap.min.js
+lib/underscore-min.js
+lib/jquery-1.8.2.min.js
+js/app.js
+
+NETWORK:
+*
+
+FALLBACK:
+img/ img/offline.jpg

@@ -1,0 +1,10 @@
+{
+    "name": "note-app",
+    "description": "Simple HTML5 Note Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+		"express": "*",
+		"mongoose": "*"
+	}
+}
